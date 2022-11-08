@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Silkscreen&display=swap');
+  :root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif; 
+}
+
+.color-red
+    {
+        color: red;
+}
+.color-orng{
+    color: sandybrown;
+}
+.body{
+    background-color:#E9ECEF;
+}
+
+.pill{
+    background-color: grey; 
+    color: white; 
+    font-size: 9px;
+    
+}
+
+.card-title{
+    color: purple;
+}
+
+.navbar-brand img{
+    width: 60px;
+    
+}
+
+/*shop now-1*/
+.btn:not(.nav-btns buttons){    
+    background-color: #fff;
+    color:rgb(85, 85, 85);
+    padding: 10px 28x;
+    border-radius: 25px;
+    border:1px solid rgb(85, 85, 85)
+}
+
+/*shop now-2*/
+.btn:not(.nav-btns buttons):hover{
+    background-color: #e5345b;
+    color: #fff;
+    border-color: #e5345b;
+
+}
+.navbar-brand span{
+    letter: spacing 2px;
+    font-family:var(--lg-font);
+}
+
+.nav-link:hover{
+    color:red !important;
+}
+
+.nav-item{
+    border-bottom:0.5px solid rgba(214, 39, 39, 0.05)
+}
+
